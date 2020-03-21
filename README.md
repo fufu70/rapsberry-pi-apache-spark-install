@@ -2,23 +2,12 @@
 
 Below is a guide on installing the apache spark environment.
 
-Ensure that everything is updated and that java is installed
+SSH into your master node. Ensure that everything is updated and that java is installed
 ```
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt update
 sudo apt install default-jdk
-```
-
-Is our firmware updated as well? If you do this then you must restart your raspberry pi as well.
-```
-sudo rpi-update
-# uname -a
-## Output might be something like: "Linux raspberrypi 4.9.80-v7+ #1098 SMP Fri Mar 9 19:11:42 GMT 2018 armv7l GNU/Linux"
-# sudo shutdown -r now
-## SSH back in to the terminal to check if the update was put through
-# uname -a
-## Output might be something like: "Linux raspberrypi 4.19.108-v7+ #1298 SMP Fri Mar 6 18:04:35 GMT 2020 armv7l GNU/Linux"
 ```
 
 Next we want to configure our users for apache spark
