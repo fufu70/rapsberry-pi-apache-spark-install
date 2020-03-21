@@ -83,3 +83,6 @@ To start all of the slave nodes run the script below:
 /opt/spark/sbin/start-slaves.sh 
 ```
 
+If you go to your browser @ `http://192.168.88.215:8080` you should see the following output:
+
+![alt text](https://raw.githubusercontent.com/fufu70/rapsberry-pi-apache-spark-install/master/assets/Screen%20Shot%202020-03-21%20at%206.44.30%20PM.png "Apache Spark Raspberry Pi installation")
