@@ -1,6 +1,6 @@
 # rapsberry-pi-apache-spark-install
 
-Below is a guide on installing the apache spark environment.
+Below is a guide on installing the apache spark environment. Before starting this process ensure that all your [nodes firmware is updated](https://github.com/fufu70/raspberry-pi-apache-spark-install/blob/master/FIRMWARE_UPDATE.md)
 
 SSH into your master node. Ensure that everything is updated and that java is installed
 ```
